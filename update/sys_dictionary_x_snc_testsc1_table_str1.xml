@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="number" table="x_snc_testsc1_table">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="str1" table="x_snc_testsc1_table">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>ignore_filter_on_new=true</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -14,10 +14,10 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Number</column_label>
+        <column_label>Str1</column_label>
         <comments/>
         <create_roles/>
-        <default_value>javascript:global.getNextObjNumberPadded();</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -27,7 +27,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>number</element>
+        <element>str1</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-19 21:29:08</sys_created_on>
-        <sys_id>90b056a519900010964f1b34218765a8</sys_id>
+        <sys_created_on>2019-10-04 23:37:58</sys_created_on>
+        <sys_id>08d092e519900010964f1b34218765c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Number</sys_name>
+        <sys_name>Str1</sys_name>
         <sys_package display_value="testsc1" source="x_snc_testsc1">e5f48f69e03e9b00964fa7c58269d4e9</sys_package>
         <sys_policy/>
         <sys_scope display_value="testsc1">e5f48f69e03e9b00964fa7c58269d4e9</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_testsc1_table_number</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_testsc1_table_str1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-04 23:37:13</sys_updated_on>
+        <sys_updated_on>2019-10-04 23:37:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
